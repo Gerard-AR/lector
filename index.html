@@ -1,0 +1,23 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Visualizador de Encabezado de Correo</title>
+    <script src="node_modules/msg-parser/dist/msg-parser.js"></script>
+    <script src="node_modules/pst-extractor/dist/pst-extractor.js"></script>
+    <script src="script.js"></script>
+</head>
+<body>
+    <div id="drop-area">
+        Arrastra y suelta uno o más correos
+    </div>
+    <div id="status-message"></div>
+    <div id="header-display">
+        <h2>Encabezado del Correo:</h2>
+        <div id="header-content"></div>
+    </div>
+</body>
+</html>
